@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artesanías Ailen</title>
+</head>
+<body>
+    <div class="contenedorLogin" id="login">
+        <h1>Bienvenido a Artesanías Ailen</h1>
+        <p>Por favor ingrese sus credenciales para acceder al sitio.</p>
+        <form id="formularioLogin">
+            <label for="nombreUsuario">Nombre de usuario:</label>
+            <input type="text" id="nombreUsuario" required>
+            <label for="contraseniaUsuario">Contraseña:</label>
+            <input type="password" id="contraseniaUsuario" required>
+            <button type="submit">Iniciar sesión</button>
+        </form>
+    </div>
+
+    <div class="contenidoPagina" id="contentContainer" style="display: none;">
+        <h1>Bienvenido a la tienda online de Artesanías Ailen</h1>
+        <div id="productosContainer">
+        </div>
+        <div id="carritoContainer" style="display: none;">
+        </div>
+        <div id="carritoProductosContainer">
+        </div>
+        <div>
+        <button id="finalizarCompraBtn" type="button">Finalizar compra</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
